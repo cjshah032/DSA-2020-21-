@@ -1,0 +1,15 @@
+Ques: Given a number N. Find the number of ways of making a sum of N, using only the numbers 3, 5 and 7. Example, if N = 10, there will be 3 combinations - {5+5}, {3+7} and {7+3}. Note that these combinations are ordered (i.e, 3 + 7 is a different combination than 7 + 3).
+Result can get very large, so print answer modulo 1000000007
+
+Example Test Input: 
+15
+
+Example Test Output:
+8
+
+Tests:	Output Expected:
+35	819
+50	27501
+100	330591410
+500	880554820
+1000	421560473

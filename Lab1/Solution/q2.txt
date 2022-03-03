@@ -1,0 +1,18 @@
+Ques: Consider a number n. Let p1, p2, ... pk be the distinct prime factors of n arranged in ascending order. Define f(n) as:
+	f(n) = n - (Product of all pi ranging from 1 to k).
+	Given a single number N, find the number of numbers n such that (2<=n<=N) and f(n) = 0;
+
+Sample Test Input:
+10
+
+Sample Test Output:
+6
+
+Explanation: The f(n) = 0 for n = 2,3,5,6,7,10. 
+
+Test:	Expected Output:
+30	18
+100	60
+1000	607
+51000	31011
+70000	42555
